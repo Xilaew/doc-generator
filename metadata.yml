@@ -1,8 +1,12 @@
 ---
+title: der Titel
+subtitle: ein Untertitel
 author: Felix von Poblotzki
+institute: scheisverein
 toc: yes
 lof: yes
 lot: yes
+numbersections: yes
 graphics: yes
 date: \today
 geometry:

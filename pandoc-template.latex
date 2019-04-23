@@ -205,6 +205,9 @@ $for(header-includes)$
 $header-includes$
 $endfor$
 
+$if(xilaew)$
+\providecommand{\xilaew}{$xilaew$}
+$endif$
 $if(title)$
 \title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
 $endif$
@@ -220,13 +223,8 @@ $if(institute)$
 \institute{$for(institute)$$institute$$sep$ \and $endfor$}
 $endif$
 \date{$date$}
-$if(xilaew)$
-\providecommand{\xilaew}[1]{}
-\xilaew{$xilaew$}
-$endif$
 
 \begin{document}
-
 $for(include-before)$
 $include-before$
 
