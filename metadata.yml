@@ -1,0 +1,23 @@
+---
+author: Felix von Poblotzki
+toc: yes
+lof: yes
+lot: yes
+graphics: yes
+date: \today
+geometry:
+    - left=1cm
+    - top=1cm
+    - bottom=1cm
+    - includeheadfoot
+    - twoside
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead[CO,CE]{This is fancy}
+    \fancyfoot[CO,CE]{So is this}
+    \fancyfoot[LE,RO]{\thepage}
+include-before: |
+    \input{titlepage}
+xilaew: test this is funnz text
+---
